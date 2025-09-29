@@ -21,7 +21,9 @@ return (
         setPerson,
         page,
         setPage,
-
+        socket,
+        activeUsers,
+        setActiveUsers
     }}>
     {children}    {/* the value that is passed as a children is rendered here */}
 
